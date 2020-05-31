@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gallery</title>
+
+    <style>
+        .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color:black;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.top{
+
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+    </style>
+<style>
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  </style>
+  
+
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a> 
+        <a class="active" href="#">Gallery</a> 
+        <a href="achivements.html">Achivements</a> 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsqs4HzN_fAGjimTnxgtprdlEkHZdHdG2NHw1AcTEbZjUY4Q/viewform?usp=sf_link">Registeration</a>
+        <a href="more.html">More</a>
+  <a href="https://www.facebook.com/zeromileracers/" class="fa fa-facebook"> facebook </a>
+  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="fa fa-google"> mail </a>
+  <a href="https://www.youtube.com/channel/UCuHqKS8dKRwMldxetdLpbnA?view_as=subscriber" class="fa fa-youtube"> youtube </a>
+  <a href="https://instagram.com/zero_mile_racers?igshid=1lmtay7p20vcr" class="fa fa-instagram"> instagram </a>
+      </div>
+
+    <div class="top">
+    <h1>Welcome to our Gallery</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+          <img src="pic1.jpg">
+          <img src="pic2.jpg">
+          <img src="pic3.jpg">
+          <img src="pic4.jpg">
+          <img src="pic5.jpg">
+          <img src="pic6.jpg">
+          <img src="pic7.jpg">
+        </div>
+        <div class="column">
+          <img src="pic8.jpg">
+          <img src="pic9.jpg">
+          <img src="pic10.jpg">
+          <img src="pic11.jpg">
+          <img src="pic12.jpg">
+          <img src="pic13.jpg">
+        </div>
+        <div class="column">
+          <img src="pic14.jpg">
+          <img src="pic15.jpg">
+          <img src="pic16.jpg">
+          <img src="pic18.jpg">
+          <img src="pic19.jpg">
+          <img src="pic20.jpg">
+          <img src="pic21.jpg">
+        </div>
+        <div class="column">
+          <img src="pic22.jpg">
+          <img src="Picture1.jpg">
+          <img src="Picture2.jpg">
+          <img src="Picture3.jpg">
+          <img src="picture4.jpg">
+          <img src="picture5.jpg">
+        </div>
+        <div class="column">
+            <img src="picture6.jpg">
+            <img src="picture7.jpg">
+            <img src="picture8.jpg">
+            <img src="picture9.jpg">
+        </div>
+      </div>
+</body>
+</html>
